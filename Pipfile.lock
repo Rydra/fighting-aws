@@ -1,0 +1,59 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "2b12ac571906c83bf82944c7fb1164c633b2b25f61c90733c77b5449c65fb445"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.13.0-32-generic",
+            "platform_system": "Linux",
+            "platform_version": "#35-Ubuntu SMP Thu Jan 25 09:13:46 UTC 2018",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "melange": {
+            "git": "https://github.com/Rydra/melange.git",
+            "ref": "v3.1.1"
+        },
+        "pybuilder": {
+            "hashes": [
+                "sha256:996ac23755608eefdb5b3b783bd35c842e84803561114344d3cb81347c916fa6"
+            ],
+            "version": "==0.11.12"
+        },
+        "redis-cache": {
+            "git": "https://github.com/Rydra/redis-simple-cache"
+        },
+        "tblib": {
+            "hashes": [
+                "sha256:9bae4b8c44b06af0e114bfc4d5f6aa3eafd2119af5a4dcab34f51f1665f16c59",
+                "sha256:436e4200e63d92316551179dc540906652878df4ff39b43db30fcf6400444fe7"
+            ],
+            "version": "==1.3.2"
+        },
+        "wheel": {
+            "hashes": [
+                "sha256:e721e53864f084f956f40f96124a74da0631ac13fbbd1ba99e8e2b5e9cafdf64",
+                "sha256:9515fe0a94e823fd90b08d22de45d7bde57c90edce705b22f5e1ecf7e1b653c8"
+            ],
+            "version": "==0.30.0"
+        }
+    },
+    "develop": {}
+}

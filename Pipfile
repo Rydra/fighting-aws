@@ -1,0 +1,16 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+pybuilder = "*"
+melange = {git = "https://github.com/Rydra/melange.git", ref = "v3.1.1"}
+redis-cache = {git = "https://github.com/Rydra/redis-simple-cache"}
+
+
+[dev-packages]
+
